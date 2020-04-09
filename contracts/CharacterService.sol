@@ -12,16 +12,13 @@ contract CharacterService {
 
     // Character data type.
     struct Character {
-        uint8 level;
+        uint16 level;
         uint16 maxHealth;
         uint16 currentHealth;
         uint16 attack;
     }
 
-    constructor() public {
-    }
-
-    /* Get character by current user. */
+    /* @return Character associated with the id. */
     function getCharacterIdByCurrentUser() internal view returns(uint){
         return ownerToCharacter[msg.sender];
     }

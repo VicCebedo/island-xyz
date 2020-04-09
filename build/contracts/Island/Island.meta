@@ -2,12 +2,17 @@
     "compile": {
         "gasEstimates": {
             "creation": {
-                "codeDepositCost": "27400",
-                "executionCost": "81",
-                "totalCost": "27481"
+                "codeDepositCost": "524600",
+                "executionCost": "5562",
+                "totalCost": "530162"
             },
             "external": {
-                "goToCave()": "127"
+                "attackUser(uint256)": "2790",
+                "characters(uint256)": "1815",
+                "createNewCharacter()": "123141",
+                "goToBar()": "948",
+                "goToCave()": "infinite",
+                "ownerToCharacter(address)": "574"
             }
         }
     }

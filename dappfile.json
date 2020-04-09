@@ -21,8 +21,20 @@
     ],
     "contracts": [
         {
+            "source": "/contracts/Bar.sol",
+            "name": "Bar",
+            "args": [],
+            "value": ""
+        },
+        {
             "source": "/contracts/CharacterService.sol",
             "name": "CharacterService",
+            "args": [],
+            "value": ""
+        },
+        {
+            "source": "/contracts/FoeBattle.sol",
+            "name": "FoeBattle",
             "args": [],
             "value": ""
         },
@@ -39,8 +51,8 @@
             "value": ""
         },
         {
-            "source": "/contracts/Quest.sol",
-            "name": "Quest",
+            "source": "/contracts/ownable.sol",
+            "name": "ownable",
             "args": [],
             "value": ""
         },
