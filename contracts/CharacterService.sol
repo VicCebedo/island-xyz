@@ -18,6 +18,11 @@ contract CharacterService {
         uint16 attack;
     }
 
+    constructor() public {
+        // Test data.
+        characters.push(Character(100, 999, 999, 999));
+    }
+
     /* @return Character associated with the id. */
     function getCharacterIdByCurrentUser() internal view returns(uint){
         return ownerToCharacter[msg.sender];

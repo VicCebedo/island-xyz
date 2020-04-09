@@ -3,8 +3,8 @@
         "gasEstimates": {
             "creation": {
                 "codeDepositCost": "174200",
-                "executionCost": "220",
-                "totalCost": "174420"
+                "executionCost": "101934",
+                "totalCost": "276134"
             },
             "external": {
                 "characters(uint256)": "1815",

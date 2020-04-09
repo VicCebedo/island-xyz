@@ -11,6 +11,10 @@ function Empty(Contract) {
     this.Contract = Contract;
 }
 
+function getCharacter(id) {
+    this.instance.methods.characters(id).call();
+}
+
 Empty.prototype.onReady = function() {
     this.init(function () {
         $('#message').append("DApp loaded successfully.");
