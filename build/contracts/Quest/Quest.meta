@@ -1,0 +1,20 @@
+{
+    "compile": {
+        "gasEstimates": {
+            "creation": {
+                "codeDepositCost": "338400",
+                "executionCost": "350",
+                "totalCost": "338750"
+            },
+            "external": {
+                "characters(uint256)": "1815",
+                "createNewCharacter()": "123097",
+                "newQuest()": "infinite",
+                "ownerToCharacter(address)": "596"
+            },
+            "internal": {
+                "_randomFoe()": "infinite"
+            }
+        }
+    }
+}

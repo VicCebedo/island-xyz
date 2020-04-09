@@ -1,0 +1,19 @@
+{
+    "compile": {
+        "gasEstimates": {
+            "creation": {
+                "codeDepositCost": "173000",
+                "executionCost": "220",
+                "totalCost": "173220"
+            },
+            "external": {
+                "characters(uint256)": "1815",
+                "createNewCharacter()": "123075",
+                "ownerToCharacter(address)": "574"
+            },
+            "internal": {
+                "getCharacterIdByCurrentUser()": "infinite"
+            }
+        }
+    }
+}

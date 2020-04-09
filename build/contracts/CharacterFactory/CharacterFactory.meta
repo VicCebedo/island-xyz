@@ -1,0 +1,16 @@
+{
+    "compile": {
+        "gasEstimates": {
+            "creation": {
+                "codeDepositCost": "159600",
+                "executionCost": "202",
+                "totalCost": "159802"
+            },
+            "external": {
+                "characterToOwner(uint256)": "583",
+                "characters(uint256)": "1507",
+                "createNewCharacter()": "101896"
+            }
+        }
+    }
+}

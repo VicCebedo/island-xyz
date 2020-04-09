@@ -1,0 +1,19 @@
+{
+    "compile": {
+        "gasEstimates": {
+            "creation": {
+                "codeDepositCost": "174600",
+                "executionCost": "196",
+                "totalCost": "174796"
+            },
+            "external": {
+                "characterToOwner(uint256)": "583",
+                "characters(uint256)": "1837",
+                "createNewCharacter()": "122252"
+            },
+            "internal": {
+                "_attack(uint256,struct FoeFactory.Foe memory)": "infinite"
+            }
+        }
+    }
+}

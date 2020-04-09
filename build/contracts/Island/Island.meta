@@ -1,0 +1,14 @@
+{
+    "compile": {
+        "gasEstimates": {
+            "creation": {
+                "codeDepositCost": "27400",
+                "executionCost": "81",
+                "totalCost": "27481"
+            },
+            "external": {
+                "goToCave()": "127"
+            }
+        }
+    }
+}

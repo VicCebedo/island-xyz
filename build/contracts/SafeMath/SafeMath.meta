@@ -1,0 +1,17 @@
+{
+    "compile": {
+        "gasEstimates": {
+            "creation": {
+                "codeDepositCost": "17000",
+                "executionCost": "94",
+                "totalCost": "17094"
+            },
+            "internal": {
+                "add(uint256,uint256)": "infinite",
+                "div(uint256,uint256)": "infinite",
+                "mul(uint256,uint256)": "infinite",
+                "sub(uint256,uint256)": "infinite"
+            }
+        }
+    }
+}
